@@ -3,11 +3,12 @@
 
 
 def key_for_min_value(hash)
-min_key = hash.first[0] 
-min_val = hash.first[1]
 if hash == {} 
   return nil 
-else 
+else
+min_key = hash.first[0] 
+min_val = hash.first[1]
+ 
   hash.each do |key, value|
     if value <= min_val 
       min_val = value 
@@ -16,4 +17,4 @@ else
   end 
 end 
   min_key
-end 
+end
