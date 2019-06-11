@@ -7,13 +7,14 @@ min_key = hash.first[0]
 min_val = hash.first[1]
 if hash = {}
   return nil 
+else 
   hash.each do |key, value|
     if value <= min_val 
       min_val = value 
       min_key = key 
 
 
-
+end 
     end 
   end 
   min_key
