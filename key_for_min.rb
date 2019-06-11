@@ -13,7 +13,7 @@ min_val = hash.first[1]
 
 
       
+    end 
   end 
-end 
   min_key
 end 
